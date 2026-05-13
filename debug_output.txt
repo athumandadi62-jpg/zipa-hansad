@@ -1,0 +1,124 @@
+ALL USERS:
+ID: 24, Username: rahma, Role: 'store_keeper'
+  - user_roles: RoleID 3 (store_keeper)
+ID: 23, Username: ruwaida, Role: 'exd'
+  - user_roles: RoleID 8 (exd)
+ID: 22, Username: shabani, Role: 'director'
+  - user_roles: RoleID 2 (director)
+ID: 21, Username: samira, Role: 'user'
+  - user_roles: RoleID 5 (user)
+ID: 20, Username: sharifa, Role: 'user'
+  - user_roles: RoleID 5 (user)
+ID: 19, Username: hajra, Role: 'user'
+  - user_roles: RoleID 5 (user)
+ID: 18, Username: siwema, Role: 'user'
+  - user_roles: RoleID 5 (user)
+ID: 17, Username: hassan, Role: 'hr'
+  - user_roles: RoleID 5 (user)
+ID: 16, Username: hawa, Role: 'hod'
+  - user_roles: RoleID 7 (hod)
+ID: 15, Username: shakira, Role: 'user'
+  - user_roles: RoleID 5 (user)
+ID: 13, Username: dadi, Role: 'hod'
+  - user_roles: RoleID 7 (hod)
+ID: 2, Username: TAI, Role: 'admin'
+  - user_roles: RoleID 1 (admin)
+ID: 1, Username: mcheni, Role: 'admin'
+  - user_roles: RoleID 1 (admin)
+
+ROLES AND PERMISSIONS:
+Role: admin (ID: 1)
+  - view_user
+  - add_user
+  - edit_user
+  - delete_user
+  - view_department
+  - add_department
+  - edit_department
+  - delete_department
+  - view_product
+  - add_product
+  - edit_product
+  - delete_product
+  - view_category
+  - view_store
+  - manage_store
+  - view_stock
+  - request_item
+  - view_my_requests
+  - approve_hod_requests
+  - approve_hr_requests
+  - view_approved_requests
+  - view_reports
+  - view_dashboard
+  - view_real_total
+Role: store_keeper (ID: 3)
+  - adding product
+  - viewing product
+  - view_product
+  - view_store
+  - manage_store
+  - view_stock
+  - request_item
+  - view_my_requests
+  - view_approved_requests
+  - view_dashboard
+Role: hr (ID: 4)
+  - view_user
+  - viewing report
+  - view_reports
+  - view_store
+  - request_item
+  - view_my_requests
+  - approve_hod_requests
+  - approve_hr_requests
+  - view_approved_requests
+  - view_dashboard
+Role: hod (ID: 7)
+  - viewing report
+  - view_stock
+  - request_item
+  - view_my_requests
+  - approve_hod_requests
+  - view_approved_requests
+  - view_reports
+Role: user (ID: 5)
+  - request_item
+  - view_my_requests
+  - view_approved_requests
+  - view_reports
+Role: director (ID: 2)
+  - view_user
+  - viewing product
+  - viewing report
+  - view_reports
+  - view_department
+  - add_department
+  - edit_department
+  - view_product
+  - view_category
+  - view_store
+  - view_stock
+  - request_item
+  - approve_hod_requests
+  - approve_hr_requests
+  - view_approved_requests
+  - view_dashboard
+  - view_real_total
+Role: exd (ID: 8)
+  - viewing product
+  - view contract
+  - viewing contract
+  - viewing consultant
+  - viewing report
+  - view_user
+  - view_department
+  - view_product
+  - view_category
+  - view_store
+  - view_stock
+  - view_my_requests
+  - view_approved_requests
+  - view_reports
+  - view_dashboard
+  - view_real_total

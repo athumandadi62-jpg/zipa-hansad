@@ -1,0 +1,20 @@
+﻿--- USERS ---
+ID: 1, Name: Hussein Mcheni, Role: admin, Dept: 
+ID: 2, Name: Fahmy, Role: admin, Dept: 
+ID: 7, Name: John, Role: director, Dept: 2
+ID: 8, Name: Asha, Role: hr, Dept: 2
+ID: 9, Name: Mimi, Role: user, Dept: 2
+ID: 10, Name: Stone, Role: store_keeper, Dept: 2
+ID: 11, Name: omar, Role: hod, Dept: 2
+
+--- ORDERS (Last 10) ---
+ID: 24, No: ZIPA-00390, Status: pending_hr, User: omar (11), Req Dept: 2
+ID: 23, No: ZIPA-50945, Status: pending_hod, User: Mimi (9), Req Dept: 2
+ID: 22, No: ZIPA-83889, Status: pending_hr, User: omar (11), Req Dept: 2
+ID: 21, No: ZIPA-06945, Status: pending_hod, User: Mimi (9), Req Dept: 2
+ID: 20, No: ZIPA-16609, Status: completed, User: omar (11), Req Dept: 2
+ID: 19, No: ZIPA-16098, Status: pending_hr, User: Asha (8), Req Dept: 2
+ID: 17, No: ZIPA-46607, Status: pending_hod, User: omar (11), Req Dept: 2
+ID: 16, No: ZIPA-03730, Status: rejected, User: omar (11), Req Dept: 2
+ID: 15, No: ZIPA-60536, Status: pending_hr, User: Asha (8), Req Dept: 2
+ID: 14, No: ZIPA-92633, Status: pending_hod, User: omar (11), Req Dept: 2

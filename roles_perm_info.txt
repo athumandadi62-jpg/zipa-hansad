@@ -1,0 +1,55 @@
+ROLES:
+ID: 1 | NAME: admin
+ID: 3 | NAME: store_keeper
+ID: 4 | NAME: hr
+ID: 7 | NAME: hod
+ID: 5 | NAME: user
+ID: 2 | NAME: director
+ID: 8 | NAME: exd
+
+PERMISSIONS:
+ID: 1 | NAME: Admin access | GROUP: User Management
+ID: 2 | NAME: adding new user | GROUP: User Management
+ID: 3 | NAME: User management | GROUP: User Management
+ID: 4 | NAME: disabling user | GROUP: User Management
+ID: 5 | NAME: managing roles | GROUP: User Management
+ID: 6 | NAME: adding roles to user | GROUP: User Management
+ID: 7 | NAME: auditing system and activities | GROUP: System
+ID: 8 | NAME: adding product | GROUP: product
+ID: 9 | NAME: viewing product | GROUP: product
+ID: 10 | NAME: updating product | GROUP: product
+ID: 11 | NAME: deleting product | GROUP: product
+ID: 12 | NAME: adding contract | GROUP: Contract Management
+ID: 13 | NAME: view contract | GROUP: Contract Management
+ID: 14 | NAME: approve contract | GROUP: Contract Management
+ID: 15 | NAME: extend contract | GROUP: Contract Management
+ID: 16 | NAME: terminate contract | GROUP: Contract Management
+ID: 17 | NAME: resend contract | GROUP: Contract Management
+ID: 18 | NAME: viewing contract | GROUP: Contract Management
+ID: 19 | NAME: adding consultant | GROUP: Consultant Management
+ID: 20 | NAME: viewing consultant | GROUP: Consultant Management
+ID: 21 | NAME: viewing report | GROUP: Reports
+ID: 22 | NAME: view_user | GROUP: User Management
+ID: 23 | NAME: add_user | GROUP: User Management
+ID: 24 | NAME: edit_user | GROUP: User Management
+ID: 25 | NAME: delete_user | GROUP: User Management
+ID: 26 | NAME: view_department | GROUP: Department Management
+ID: 27 | NAME: add_department | GROUP: Department Management
+ID: 28 | NAME: edit_department | GROUP: Department Management
+ID: 29 | NAME: delete_department | GROUP: Department Management
+ID: 30 | NAME: view_product | GROUP: Product Management
+ID: 31 | NAME: add_product | GROUP: Product Management
+ID: 32 | NAME: edit_product | GROUP: Product Management
+ID: 33 | NAME: delete_product | GROUP: Product Management
+ID: 34 | NAME: view_category | GROUP: Product Management
+ID: 35 | NAME: view_store | GROUP: Inventory
+ID: 36 | NAME: manage_store | GROUP: Inventory
+ID: 37 | NAME: view_stock | GROUP: Inventory
+ID: 38 | NAME: request_item | GROUP: Requests
+ID: 39 | NAME: view_my_requests | GROUP: Requests
+ID: 40 | NAME: approve_hod_requests | GROUP: Requests
+ID: 41 | NAME: approve_hr_requests | GROUP: Requests
+ID: 42 | NAME: view_approved_requests | GROUP: Requests
+ID: 43 | NAME: view_reports | GROUP: Reports
+ID: 44 | NAME: view_dashboard | GROUP: Dashboard
+ID: 45 | NAME: view_real_total | GROUP: Dashboard

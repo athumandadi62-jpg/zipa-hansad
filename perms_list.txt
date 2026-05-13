@@ -1,0 +1,45 @@
+Admin access
+adding new user
+User management
+disabling user
+managing roles
+adding roles to user
+auditing system and activities
+adding product
+viewing product
+updating product
+deleting product
+adding contract
+view contract
+approve contract
+extend contract
+terminate contract
+resend contract
+viewing contract
+adding consultant
+viewing consultant
+viewing report
+view_user
+add_user
+edit_user
+delete_user
+view_department
+add_department
+edit_department
+delete_department
+view_product
+add_product
+edit_product
+delete_product
+view_category
+view_store
+manage_store
+view_stock
+request_item
+view_my_requests
+approve_hod_requests
+approve_hr_requests
+view_approved_requests
+view_reports
+view_dashboard
+view_real_total

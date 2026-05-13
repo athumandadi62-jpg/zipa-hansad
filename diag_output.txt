@@ -1,0 +1,15 @@
+USERS:
+ID:1 | User:mcheni | Role:admin | Dept:NULL
+ID:2 | User:TAI | Role:admin | Dept:NULL
+ID:5 | User:dadi | Role:hod | Dept:1
+ID:6 | User:hassan | Role:hr | Dept:NULL
+ID:4 | User:shakira | Role:user | Dept:2
+ID:7 | User:samira | Role:user | Dept:1
+ID:8 | User:hawa | Role:hod | Dept:2
+ID:9 | User:ruwaida | Role:exd | Dept:NULL
+ID:10 | User:shabani | Role:director | Dept:NULL
+ID:11 | User:rahma | Role:store_keeper | Dept:NULL
+
+ORDERS:
+ID:9 | No:ZIPA-16084 | Status:pending_hod | UserID:4 | UserDept:2
+ID:10 | No:ZIPA-07016 | Status:pending_hod | UserID:4 | UserDept:2
